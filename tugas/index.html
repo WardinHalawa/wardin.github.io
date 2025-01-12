@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <title>Toko Wardin</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+ <header>
+ <h1>Toko Online Wardin</h1>
+ <nav>
+ <ul>
+ <li><a href="#produk">Produk</a></li>
+ <li><a href="#kontak">Kontak</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <section id="produk">
+ <h2>Toko Sepatu</h2>
+ <div class="produk">
+ <img src="sepatu.jpeg" alt="Sepatu Sneakers Wanita Sport">
+ <h3>Sepatu Sneakers Wanita Sport</h3>
+ <p>Harga: Rp 299.000</p>
+ <button class="beli">Beli</button>
+ </div>
+ <div class="produk">
+ <img src="sepatu 2jpg.jpg" alt="Sepatu Sneakers Wanita Shoes Candy">
+ <h3>Sepatu Sneakers Wanita Shoes Candy</h3>
+ <p>Harga: Rp 299.000</p>
+ <button class="beli">Beli</button>
+ </div>
+ <div class="produk">
+ <img src="sepatu 3.jpeg" alt="Sepatu Sneakers">
+ <h3>Sepatu Sneakers</h3>
+ <p>Harga: Rp 299.000</p>
+ <button class="beli">Beli</button>
+ </div>
+ <div class="produk">
+ <img src="sepatu 4.jpeg" alt="Sepatu Sekolah">
+ <h3>Sepatu Sekolah</h3>
+ <p>Harga: Rp 299.000</p>
+ <button class="beli">Beli</button>
+ </div>
+ <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <div class="media-sosial">
+      <a href="https://www.facebook.com/Wardin Halawa" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" width="24" height="24"></a>
+      <a href="https://wa.me/082284725413" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" width="24" height="24"></a>
+      <a href="https://www.instagram.com/wardin_halawa_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Instagram" width="24" height="24"></a>
+    </div>
+  </section>
+  
+ </main>
+ <footer>
+ <p>&copy; 2025 Toko Online Wardin</p>
+ </footer>
+ <div id="form-pemesanan" style="display:none;">
+ <h2>Formulir Pemesanan</h2>
+ <button id="tutup">Tutup</button>
+ <form id="form-pesanan">
+ <label>Nama Penerima:</label>
+ <input type="text" id="nama" required><br><br>
+ <label>Alamat:</label>
+ <textarea id="alamat" required></textarea><br><br>
+ <label>Nomor HP:</label>
+ <input type="tel" id="nomor" required><br><br>
+ <label>Total Harga:</label>
+ <p id="total-harga">Rp 0</p>
+ <input type="submit" value="Kirim Pesanan">
+ </form>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
